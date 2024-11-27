@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.bg-nav{
+  background-color: lightgoldenrodyellow;
+  /* background-color: #000000; */
+  /* background-color: rgba(91, 89, 89, 0.304); */
+  border:1px solid lightgray;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.contain{
+  border: 15px groove lightyellow;
+  width: 80vw;
+  height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.374);
+}
+
+.padd{
+  padding: 10px;
+}
+
+.bgcolor{
+  width: 100vw;
+  height: 100vh;
+  /* background: black; */
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
+
+
+
+
